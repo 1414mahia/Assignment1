@@ -1,0 +1,229 @@
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    
+    
+}
+nav{
+    display: flex;  /* navigation list k pasha pashi anar  jonno */
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+    width: 50px;
+}
+li{
+    list-style: none; /* navigation list er dot dhur korar jonno */
+    font-size: 20px;
+    color: white;
+}
+li:hover{ /* cursor pointer hoye jai korar jonno */
+    color: blue;
+    cursor: pointer;
+}
+.menu-container{
+  display: flex;
+  gap: 15px;
+}
+.banner-image{
+    width:300px;
+
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.banner-left{
+    width: 400px;
+    line-height: 1;
+}
+.banner-right{
+    margin-top:20px ;
+}
+.btn{
+    padding: 40 px 60 px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.Resume-btn{
+    background-color: rgba(0, 0, 255, 0.6);
+}
+h1{
+    color: aqua;
+}
+.service-title{
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.Service-card{
+    width: 750px;
+    height: 400px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    text-align: center;
+    margin: 40px;
+    margin-left: 20%;
+   
+}
+.service-img{
+    width: 400px;
+    height: 400px;
+   
+}
+.Service-card-btn{
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 320px;
+    position: absolute;
+    margin-left: 400px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+ }
+.project{
+    display: flex;
+    justify-content: space-around;
+}
+.service-description{
+  
+   margin-top: 70px;
+   text-align: center;
+   
+ }
+ 
+a{
+    text-decoration: none;
+    color: white;
+
+   
+
+
+}
+.contact-us{
+     padding: 50px ;
+     width: 500px;
+     margin: auto;
+     box-shadow: 4px 4px 8px grey;
+     text-align: center;
+     margin-top: 30px;
+    
+}
+.input-box{
+  padding: 15px;
+  width: 50%;
+  margin-top: 10px;
+}
+.massage-box{
+ width: 50%;
+ height: 100px;
+ margin-top: 15px;
+}
+.submit-btn{
+    width: 30%;
+    padding: 15px;
+    background-color: aqua;
+    color: white;
+    border:none;
+    margin-top: 20px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Resume-btn{
+    padding: 15px 25px;
+background-color: cadetblue;
+border: none;
+font-size: 18px;
+color: white;
+}
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    width: 500px;
+    height: auto;
+}
+
+.skill-card-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px; /* Added margin to separate sections */
+}
+
+.skill-card-btn button {
+    padding: 10px 15px;
+    border: none;
+    background-color:gray; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+h1:hover {
+    margin: 10px 0;
+    color: aquamarine;
+
+}
+
+.right{
+    text-align: center;
+    
+}
+.footer-container{
+    background-color: black;
+    color: white;
+    padding: 30px 40px;
+   
+}
+.footer .list-group-item {
+  gap: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 15px;
+}
+.icon{
+    gap: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+     background-color: black;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+     background-color: black;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+     background-color: black;
+    }
+}
